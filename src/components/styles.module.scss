@@ -1,0 +1,36 @@
+.toDo {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#todoHolder {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 50pt;
+}
+
+#todoHolder > * {
+  margin: 30pt;
+}
+
+.done {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+#filterHolder {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.selectedFilter, .unselectedFilter:hover {
+  font-weight: bold;
+}
+
+.unselectedFilter {
+  text-decoration: underline;
+}
+
